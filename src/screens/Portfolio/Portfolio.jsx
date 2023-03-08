@@ -17,6 +17,7 @@ function Portfolio() {
         onClick={() => handleClick(idx)}
         className="portfolio-projects-frame"
       >
+        <h1 className = "title">{project.title}</h1>
         <img src={project.image} alt={project.title} />
       </div>
     );
