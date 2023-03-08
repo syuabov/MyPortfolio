@@ -28,6 +28,9 @@ function Portfolio() {
   return (
     <div id="portfolio" className="portfolio-container">
       <h1 className="portfolio-title">Portfolio</h1>
+      <p>
+        This is my github page <a href="https://github.com/syuabov" target="_blank" rel = "noreferrer">https://github.com/syuabov</a>
+      </p>
       <div className="portfolio-grid">
         {currentProject && (
           <Modal
