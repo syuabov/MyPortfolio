@@ -8,7 +8,7 @@ import "./TypeWritter.css";
  * @param {Number} MsgDelay - Number: delay between each message in milliseconds 
  */
 
-function TypeWritter({data = [], TypeSpeed = 300, MsgDelay = 2000}){
+function TypeWritter({data = [], TypeSpeed = 50, MsgDelay = 2000}){
     useEffect(() => {
         let CharacterPos = 0;
         let MsgBuffer = "";
